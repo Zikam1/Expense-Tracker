@@ -2,7 +2,7 @@
     <div>
       <h2 class="text-xl font-bold mb-4">Expense List</h2>
       <ul class="bg-white shadow-md rounded-lg p-4">
-        <li v-for="(expense, index) in expenses" :key="index" class="border-b last:border-b-0 py-2 flex justify-between">
+        <li v-for="(expense, index) in expenses" :key="index" class="border-b last:border-b-0 py-2 px-4 flex justify-between">
           <span>{{ expense.description }}</span>
           <span>{{ expense.amount | currency }}</span>
         </li>
@@ -17,6 +17,7 @@
     { description: 'Foodstuffs', amount: 50000 },
     { description: 'Transport', amount: 20000 },
     { description: 'Utilities', amount: 10000 },
+    
     // Add more expenses as needed
   ])
   

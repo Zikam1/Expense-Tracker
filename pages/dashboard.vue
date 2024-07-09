@@ -39,7 +39,7 @@
           </div>
           <div class="w-full lg:w-1/3 px-3 mb-6">
             <div class="bg-white rounded-lg shadow-lg p-6">
-              <h2 class="text-2xl font-bold mb-4">Recent Expenses</h2>
+              <h2 class="text-2xl font-bold mb-4 ">Recent Expenses</h2>
               <ExpenseList />
             </div>
           </div>
