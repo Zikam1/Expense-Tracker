@@ -14,9 +14,9 @@
   import { ref } from 'vue'
   
   const expenses = ref([
-    { description: 'Groceries', amount: 50 },
-    { description: 'Transport', amount: 20 },
-    { description: 'Utilities', amount: 100 },
+    { description: 'Foodstuffs', amount: 50000 },
+    { description: 'Transport', amount: 20000 },
+    { description: 'Utilities', amount: 10000 },
     // Add more expenses as needed
   ])
   

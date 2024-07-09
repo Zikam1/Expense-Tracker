@@ -1,32 +1,30 @@
 <template>
     <div class="bg-gray-100 min-h-screen">
       <div class="container mx-auto px-6 py-12">
-        
         <!-- Dashboard Header -->
         <header class="mb-12 text-center">
-          <h1 class="text-4xl font-bold mb-4">Dashboard</h1>
+          <h1 class="text-2xl font-bold mb-4 text-blue-500 ">DASHBOARD</h1>
           <p class="text-xl">Manage your expenses efficiently</p>
         </header>
-
-        
+  
         <!-- Summary Cards -->
         <div class="flex flex-wrap -mx-3 mb-12">
           <div class="w-full md:w-1/3 px-3 mb-6">
             <div class="bg-white rounded-lg shadow-lg p-6">
               <h2 class="text-2xl font-bold mb-2">Total Expenses</h2>
-              <p class="text-xl">$1200</p>
+              <p class="text-xl">#80000</p>
             </div>
           </div>
           <div class="w-full md:w-1/3 px-3 mb-6">
             <div class="bg-white rounded-lg shadow-lg p-6">
               <h2 class="text-2xl font-bold mb-2">Monthly Budget</h2>
-              <p class="text-xl">$1500</p>
+              <p class="text-xl">#150000</p>
             </div>
           </div>
           <div class="w-full md:w-1/3 px-3 mb-6">
             <div class="bg-white rounded-lg shadow-lg p-6">
               <h2 class="text-2xl font-bold mb-2">Remaining Budget</h2>
-              <p class="text-xl">$300</p>
+              <p class="text-xl">#70000</p>
             </div>
           </div>
         </div>

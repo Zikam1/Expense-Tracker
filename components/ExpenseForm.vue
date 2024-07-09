@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2 class="text-xl font-bold mb-4">Add Expense</h2>
+      <h2 class="text-xl font-bold mb-4">Select</h2>
       <form @submit.prevent="addExpense" class="bg-white shadow-md rounded-lg p-4">
         <div class="mb-4">
           <label for="description" class="block text-gray-700 font-bold mb-2">Description</label>
