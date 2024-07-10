@@ -9,7 +9,7 @@
   </template>
   
   <script setup>
-  // No additional scripts needed here for now.
+  
   </script>
   
   <style scoped>
